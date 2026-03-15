@@ -1,7 +1,7 @@
 # T9 Remote
 📺 A T9-style keyboard app for Android TV that lets you type using the number buttons on your TV remote control — just like old cell phones.
 
-<img src="./banner.png" width="800">
+<img src="./screenshots/banner.png" width="800">
 
 ## Features
 
