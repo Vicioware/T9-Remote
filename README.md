@@ -10,7 +10,7 @@
 - **Accented characters** (á, é, í, ó, ú, ñ) via long press in Spanish mode
 - **Customizable key mapping** — assign any remote button to toggle case, delete, or change language
 - **6 visual themes** for the character bar
-- **[Advanced button mapping](#advancedb-utton-mapping)** via adb command — detect even special remote buttons (Netflix, Prime Video, Assistant, etc.)
+- **[Advanced button mapping](#advanced-button-mapping)** via adb command — detect even special remote buttons (Netflix, Prime Video, Assistant, etc.)
 
 ## Screenshots
 
