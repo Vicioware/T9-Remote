@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_subtitle">Escribe con los números del control remoto</string>
+    <string name="section_setup">Configuración</string>
+    <string name="section_config">Personalización</string>
+    <string name="section_test">Prueba</string>
+    <string name="btn_key_mapping">Configurar mapeo de botones</string>
+    <string name="test_hint">Escribe algo con el control…</string>
+
+    <string name="key_mapping_title">Mapeo de Botones</string>
+    <string name="mapping_note">Los números (0–9), pad direccional, Enter y Atrás no se pueden remapear</string>
+    <string name="action_toggle_case">Alternar mayúsculas</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_change_lang">Cambiar idioma</string>
+    <string name="btn_add_key">Agregar botón</string>
+    <string name="btn_reset_defaults">Restablecer</string>
+    <string name="btn_back">Volver</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="capture_prompt">Presiona un botón del control para asignarlo…</string>
+    <string name="no_keys_mapped">Sin botones asignados</string>
+    <string name="key_reserved">Este botón está reservado y no se puede mapear</string>
+    <string name="defaults_restored">Valores restaurados</string>
+    <string name="btn_theme_picker">Cambiar tema</string>
+    <string name="theme_picker_title">Tema de la barra de carácteres</string>
+    <string name="accessibility_label">T9 Remote Mapper</string>
+    <string name="accessibility_description">Permite a T9 Remote detectar cualquier botón del control remoto para asignar funciones. Solo se activa al asignar botones.</string>
+    <string name="capture_prompt_fallback">Presiona un botón del control para asignarlo…\n\nSi el botón que quieres mapear no funciona correctamente, necesitarás seguir la guía en la página de Github.</string>
+    <string name="btn_enable_select">Habilitar y establecer como teclado</string>
+    <string name="btn_visit_guide">Visitar guía</string>
+</resources>

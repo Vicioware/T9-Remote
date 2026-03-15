@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0F0F23">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="48dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="8dp">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/btn_back"
+            android:textSize="12sp"
+            android:textColor="#AAAAAA"
+            android:background="@drawable/selector_btn_back"
+            android:focusable="true"
+            android:drawableStart="@drawable/ic_arrow_back"
+            android:drawablePadding="4dp"
+            android:paddingHorizontal="12dp"
+            android:layout_marginEnd="16dp"
+            android:stateListAnimator="@null" />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_gamepad"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/key_mapping_title"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mapping_note"
+            android:textSize="11sp"
+            android:textColor="#555577"
+            android:gravity="end" />
+    </LinearLayout>
+
+    <!-- 3 Column Cards -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingHorizontal="48dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <!-- Column 1: Toggle Case -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg_rounded_dark"
+            android:padding="20dp"
+            android:layout_marginEnd="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/action_toggle_case"
+                android:textSize="14sp"
+                android:textColor="#4FC3F7"
+                android:textStyle="bold"
+                android:layout_marginBottom="14dp" />
+
+            <LinearLayout
+                android:id="@+id/container_toggle_case"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="top" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#222244"
+                android:layout_marginVertical="10dp" />
+
+            <Button
+                android:id="@+id/btn_add_toggle_case"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="@string/btn_add_key"
+                android:textSize="12sp"
+                android:textColor="#BBBBDD"
+                android:background="@drawable/selector_btn_add"
+                android:focusable="true"
+                android:gravity="start|center_vertical"
+                android:paddingHorizontal="12dp"
+                android:drawableStart="@drawable/ic_add"
+                android:drawablePadding="6dp"
+                android:stateListAnimator="@null" />
+        </LinearLayout>
+
+        <!-- Column 2: Delete -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg_rounded_dark"
+            android:padding="20dp"
+            android:layout_marginHorizontal="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/action_delete"
+                android:textSize="14sp"
+                android:textColor="#4FC3F7"
+                android:textStyle="bold"
+                android:layout_marginBottom="14dp" />
+
+            <LinearLayout
+                android:id="@+id/container_delete"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="top" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#222244"
+                android:layout_marginVertical="10dp" />
+
+            <Button
+                android:id="@+id/btn_add_delete"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="@string/btn_add_key"
+                android:textSize="12sp"
+                android:textColor="#BBBBDD"
+                android:background="@drawable/selector_btn_add"
+                android:focusable="true"
+                android:gravity="start|center_vertical"
+                android:paddingHorizontal="12dp"
+                android:drawableStart="@drawable/ic_add"
+                android:drawablePadding="6dp"
+                android:stateListAnimator="@null" />
+        </LinearLayout>
+
+        <!-- Column 3: Change Language -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg_rounded_dark"
+            android:padding="20dp"
+            android:layout_marginStart="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/action_change_lang"
+                android:textSize="14sp"
+                android:textColor="#4FC3F7"
+                android:textStyle="bold"
+                android:layout_marginBottom="14dp" />
+
+            <LinearLayout
+                android:id="@+id/container_change_lang"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="top" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#222244"
+                android:layout_marginVertical="10dp" />
+
+            <Button
+                android:id="@+id/btn_add_change_lang"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="@string/btn_add_key"
+                android:textSize="12sp"
+                android:textColor="#BBBBDD"
+                android:background="@drawable/selector_btn_add"
+                android:focusable="true"
+                android:gravity="start|center_vertical"
+                android:paddingHorizontal="12dp"
+                android:drawableStart="@drawable/ic_add"
+                android:drawablePadding="6dp"
+                android:stateListAnimator="@null" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Bottom bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingHorizontal="48dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="4dp">
+
+        <FrameLayout
+            android:id="@+id/btn_reset_defaults"
+            android:layout_width="220dp"
+            android:layout_height="44dp"
+            android:background="@drawable/selector_btn_danger"
+            android:focusable="true"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginStart="14dp"
+                android:src="@drawable/ic_restore"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/btn_reset_defaults"
+                android:textSize="13sp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="true" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

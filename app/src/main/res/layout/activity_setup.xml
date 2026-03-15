@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F23"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="440dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="24dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_rounded_dark"
+            android:paddingHorizontal="28dp"
+            android:paddingVertical="24dp">
+
+            <!-- ── Configuración / Setup ── -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/section_setup"
+                android:textSize="11sp"
+                android:textColor="#4FC3F7"
+                android:textStyle="bold"
+                android:letterSpacing="0.12"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Enable & Select button -->
+            <FrameLayout
+                android:id="@+id/btn_enable_select"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/selector_btn_primary"
+                android:focusable="true"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical|start"
+                    android:layout_marginStart="14dp"
+                    android:src="@drawable/ic_settings"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/btn_enable_select"
+                    android:textSize="13sp"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="true" />
+            </FrameLayout>
+
+            <!-- Divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#222244"
+                android:layout_marginVertical="14dp" />
+
+            <!-- ── Personalización / Configuration ── -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/section_config"
+                android:textSize="11sp"
+                android:textColor="#4FC3F7"
+                android:textStyle="bold"
+                android:letterSpacing="0.12"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Key Mapping button -->
+            <FrameLayout
+                android:id="@+id/btn_key_mapping"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/selector_btn_secondary"
+                android:focusable="true"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical|start"
+                    android:layout_marginStart="14dp"
+                    android:src="@drawable/ic_gamepad"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/btn_key_mapping"
+                    android:textSize="13sp"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="true" />
+            </FrameLayout>
+
+            <!-- Theme Picker button -->
+            <FrameLayout
+                android:id="@+id/btn_theme_picker"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/selector_btn_secondary"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_marginTop="6dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical|start"
+                    android:layout_marginStart="14dp"
+                    android:src="@drawable/ic_palette"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/btn_theme_picker"
+                    android:textSize="13sp"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="true" />
+            </FrameLayout>
+
+            <!-- Divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#222244"
+                android:layout_marginVertical="14dp" />
+
+            <!-- ── Prueba / Test ── -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/section_test"
+                android:textSize="11sp"
+                android:textColor="#4FC3F7"
+                android:textStyle="bold"
+                android:letterSpacing="0.12"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Test EditText -->
+            <EditText
+                android:id="@+id/et_test"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:hint="@string/test_hint"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#444466"
+                android:background="@drawable/selector_edittext"
+                android:padding="14dp"
+                android:gravity="top|start"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

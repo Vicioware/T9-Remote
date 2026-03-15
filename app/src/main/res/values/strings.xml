@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">T9 Remote</string>
+    <string name="app_subtitle">Type with your remote control numbers</string>
+    <string name="section_setup">Setup</string>
+    <string name="section_config">Configuration</string>
+    <string name="section_test">Test</string>
+    <string name="btn_key_mapping">Configure button mapping</string>
+    <string name="test_hint">Type something with the remote…</string>
+
+    <string name="key_mapping_title">Button Mapping</string>
+    <string name="mapping_note">Numbers (0–9), D-pad, Enter and Back cannot be remapped</string>
+    <string name="action_toggle_case">Toggle Case</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_change_lang">Change language</string>
+    <string name="btn_add_key">Add button</string>
+    <string name="btn_reset_defaults">Reset</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="capture_prompt">Press a button on the remote to assign it…</string>
+    <string name="no_keys_mapped">No buttons assigned</string>
+    <string name="key_reserved">This button is reserved and cannot be mapped</string>
+    <string name="defaults_restored">Defaults restored</string>
+    <string name="btn_theme_picker">Change theme</string>
+    <string name="theme_picker_title">Character bar theme</string>
+    <string name="accessibility_label">T9 Remote Mapper</string>
+    <string name="accessibility_description">Allows T9 Remote to detect any button on your remote control for key mapping. Only active while assigning buttons.</string>
+    <string name="capture_prompt_fallback">Press a button on the remote to assign it…\n\nIf the button you want to map doesn\'t work correctly, you\'ll need to follow the guide on the GitHub page.</string>
+    <string name="btn_enable_select">Enable and set as keyboard</string>
+    <string name="btn_visit_guide">Visit guide</string>
+</resources>
