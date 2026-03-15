@@ -109,4 +109,26 @@ _This may take up to 30 seconds to take effect_
 2. Find **T9 Remote Mapper** and enable its switch
 3. Go back to **Key Mapping** — you can now capture any remote button
 
-_You only need to do this once_
+> _Special buttons keep their original behavior outside text fields. For example, if you remap the Netflix button, it will still open Netflix when you are not focused on a text field. However, when a text field is active, the button will perform the action assigned in T9 Remote instead._
+
+### Installation
+
+1. Download the latest APK from [Releases](https://github.com/Vicioware/T9-Remote/releases)
+2. Transfer it to your Android TV via USB or using "Send Files to TV" app
+3. Install the APK (you may need to enable "Install from unknown sources")
+
+## Requirements
+
+- Android TV with Android 5.0+
+- A TV remote with number keys (0–9)
+
+## License
+This project is licensed under the MIT License.
+
+## Contributing
+
+This project was developed entirely with the help of artificial intelligence.
+
+All of the app's source files are included in this repository, so you are free to study the code, modify it, adapt it to your needs, and build on top of it.
+
+Contributions, forks, fixes, and experiments are all welcome.
