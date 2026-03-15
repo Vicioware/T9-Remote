@@ -14,6 +14,7 @@
 
 ## Screenshots
 
-| Main Screen | Setup | Key Mapping | Theme Picker |
-|:---:|:---:|:---:|:---:|
-| ![](./screenshots/main_menu.png) |
+![](./screenshots/main_menu.png)
+![](./screenshots/mapper_menu.png)
+![](./screenshots/theme_menu.png)
+![](./screenshots/character_bar.png)
