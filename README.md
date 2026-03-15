@@ -16,3 +16,4 @@
 
 | Main Screen | Setup | Key Mapping | Theme Picker |
 |:---:|:---:|:---:|:---:|
+| ![](./screenshots/main_menu.png) |
