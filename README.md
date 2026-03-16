@@ -153,7 +153,7 @@ _This may take up to 30 seconds to take effect_
 2. Find **T9 Remote Mapper** and enable its switch
 3. Go back to **Key Mapping** — you can now capture any remote button
 
-### Installation
+## Installation
 
 1. Download the latest APK from [Releases](https://github.com/Vicioware/T9-Remote/releases)
 2. Transfer it to your Android TV via USB or using "Send Files to TV" app
