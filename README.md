@@ -78,7 +78,7 @@ Special buttons keep their original behavior outside text fields. For example, i
 
 On Android 13+, sideloaded apps are blocked from enabling accessibility services unless you first allow restricted settings via ADB. You can do this using **either an Android Phone or a PC** — choose whichever method you prefer below.
 
-_**Important:** Your TV and the device you use to run the ADB command (Phone or PC) **must be connected to the same Wi-Fi network**_.
+_**Important:** Your TV and the device you use to run the ADB command (Phone or PC) **must be connected to the same WiFi network**_.
 
 ## Android
 ### Step 1 — Enable Developer Options
